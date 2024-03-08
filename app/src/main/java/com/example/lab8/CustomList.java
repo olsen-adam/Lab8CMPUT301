@@ -54,7 +54,8 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public boolean contains(City city) {
-        return cities.contains(city);
+        return false;
+//        cities.contains(city);
     }
 
 }
